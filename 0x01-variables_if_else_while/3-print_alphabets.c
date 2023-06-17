@@ -10,19 +10,19 @@
 
 int main(void)
 {
-	char small = 'a';
-	char capital = 'A';
+	char sm = 'a';
+	char cap = 'A';
 
-	while (small <= z)
+	while (sm <= z)
 	{
-		putchar(small);
-		small++;
+		putchar(sm);
+		sm++;
 	}
 
-	while (capital <= 'Z')
+	while (cap <= 'Z')
 	{
-		putchar(capital);
-		capital++;
+		putchar(cap);
+		cap++;
 	}
 	putchar('\n');
 	return (0);
