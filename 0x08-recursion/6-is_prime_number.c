@@ -21,7 +21,7 @@ int is_prime_number(int n)
  * Return: int
 */
 
-int evaluate(int n, int start);
+int evaluate(int n, int start)
 
 {
 	if (start >= n && n > 1)
