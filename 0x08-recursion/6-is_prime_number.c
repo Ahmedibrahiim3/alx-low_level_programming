@@ -22,11 +22,12 @@ int is_prime_number(int n)
 */
 
 int evaluate(int n, int start);
+
 {
-if (start >= n && n > 1)
-	return (1);
-else if (n % start == 0 || n <= 1)
-	return (0);
-else
-	return (evaluate(n, start + 1));
+	if (start >= n && n > 1)
+		return (1);
+	else if (n % start == 0 || n <= 1)
+		return (0);
+	else
+		return (evaluate(n, start + 1));
 }
