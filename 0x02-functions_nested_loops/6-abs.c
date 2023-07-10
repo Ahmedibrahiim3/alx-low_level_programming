@@ -2,7 +2,7 @@
 
 /**
  * _abs - Entry point
- * @x: input to check and return
+ * @n: input to check and return
  * Return: Always 0 (success)
 */
 
