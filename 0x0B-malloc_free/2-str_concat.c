@@ -28,15 +28,15 @@ char *str_concat(char *s1, char *s2)
 	if (conect == NULL)
 		return (NULL);
 	i = c = 0;
-
 	while (s1[i] != '\0')
 	{
 		conect[i] = s1[i];
 		i++;
 	}
+
 	while (s2[c] != '\0')
 	{
-		conect[1] = s2[c];
+		conect[i] = s2[c];
 		i++, c++;
 	}
 	conect[i] = '\0';
